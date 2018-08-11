@@ -5,6 +5,7 @@ export default class InstructionScreen extends Component {
     render() {
         /*const { navigate } = this.props.navigation;*/
         return (
+            <Container>
             <List>
                 <ListItem>
                   <Text onPress={()=> Linking.openURL('https://www.youtube.com/account') }>Sign up to YouTube Account</Text>
@@ -19,6 +20,7 @@ export default class InstructionScreen extends Component {
                   <Input placeholder="Livestream Link" />
                 </Item>
             </Form>
+        </Container>
       );
     }
 }
