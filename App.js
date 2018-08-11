@@ -11,7 +11,7 @@ const RootStack = createStackNavigator(
     LiveStream: LiveStreamScreen,
     ListStream: ListStreamScreen,
     Question: QuestionScreen,
-    Instructions: InstructionScreen,
+    Instruction: InstructionScreen,
   },
   {
     initialRouteName: 'Home'

@@ -31,6 +31,12 @@ export default class HomeScreen extends Component {
                     navigate('Question')
                 }
                 />
+                <Button
+                title="Go to Instruction"
+                onPress={() =>
+                    navigate('Instruction')
+                }
+                />
             </View>
       );
     }
