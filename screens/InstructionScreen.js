@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Container, Header,List, View, Form, Label, Input, ListItem, Text, Button } from 'react-native';
+import { Container, Header,List, View, Form, Label, Input, ListItem, Item, Text, Button } from 'native-base';
+
 
 export default class InstructionScreen extends Component {
     render() {
